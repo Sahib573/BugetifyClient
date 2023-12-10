@@ -36,11 +36,11 @@ function App() {
               key={path}
               path={path}
               element={
-                (usr)?(
+                // (usr)?(
                 <Suspense fallback={<Loader />}>
                   <Component />
                 </Suspense>
-                ):(<SignIn/>)
+                // ):(<SignIn/>)
               }
             />
           ))}
