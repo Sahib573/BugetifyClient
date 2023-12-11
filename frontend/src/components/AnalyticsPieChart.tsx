@@ -66,7 +66,7 @@ const options: ApexOptions = {
 
 const AnalyticsPieChart: React.FC = () => {
   const [state, setState] = useState<ChartThreeState>({
-    series: [23, 30, 35, 4, 2, 2, 3],
+    series: [28, 32, 35, 0, 0, 2, 3],
   });
 
   return (
@@ -127,7 +127,7 @@ const AnalyticsPieChart: React.FC = () => {
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-primary"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
               <span> Food </span>
-              <span> 23% </span>
+              <span> 28% </span>
             </p>
           </div>
         </div>
@@ -136,7 +136,7 @@ const AnalyticsPieChart: React.FC = () => {
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#6577F3]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
               <span> Clothes </span>
-              <span> 30% </span>
+              <span> 32% </span>
             </p>
           </div>
         </div>
@@ -154,7 +154,7 @@ const AnalyticsPieChart: React.FC = () => {
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#8FD0EF]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
               <span> Personal Development </span>
-              <span> 4% </span>
+              <span> 0% </span>
             </p>
           </div>
         </div>
@@ -163,7 +163,7 @@ const AnalyticsPieChart: React.FC = () => {
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#8FD0EF]"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
               <span> Travel </span>
-              <span> 2% </span>
+              <span> 0% </span>
             </p>
           </div>
         </div>

@@ -25,7 +25,7 @@ const ChatCard = () => {
           <div className="flex flex-1 items-center justify-between">
             <div>
               <h5 className="font-medium text-black dark:text-white">
-                Devid Heilo
+                Kush Aggarwal
               </h5>
               <p>
                 <span className="text-sm text-black dark:text-white">
@@ -50,7 +50,7 @@ const ChatCard = () => {
 
           <div className="flex flex-1 items-center justify-between">
             <div>
-              <h5 className="font-medium">Henry Fisher</h5>
+              <h5 className="font-medium">Parul</h5>
               <p>
                 <span className="text-sm">I am waiting for you</span>
                 <span className="text-xs"> . 5:54 PM</span>
@@ -69,7 +69,7 @@ const ChatCard = () => {
 
           <div className="flex flex-1 items-center justify-between">
             <div>
-              <h5 className="font-medium">Wilium Smith</h5>
+              <h5 className="font-medium">Somesh Singh</h5>
               <p>
                 <span className="text-sm">Where are you now?</span>
                 <span className="text-xs"> . 10:12 PM</span>
@@ -89,7 +89,7 @@ const ChatCard = () => {
           <div className="flex flex-1 items-center justify-between">
             <div>
               <h5 className="font-medium text-black dark:text-white">
-                Henry Deco
+                Deepak Kumar
               </h5>
               <p>
                 <span className="text-sm text-black dark:text-white">

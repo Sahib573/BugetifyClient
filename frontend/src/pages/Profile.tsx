@@ -13,7 +13,7 @@ const Profile = () => {
       if (getUser) {
         const usr = JSON.parse(getUser);
         const _id = usr._id;
-        const res = await axios.post("https://backendbugetify.onrender.com/user/getProfile", {
+        const res = await axios.post("https://budgetserver-7ip1.onrender.com/user/getProfile", {
           _id,
         });
         // console.log(res)
@@ -141,7 +141,7 @@ const Profile = () => {
                   About Me
                 </h4>
                 <p className="mt-4.5">
-                  Greetings! 🌟 I'm Sahib, a passionate individual navigating life's adventures. While I wear many hats, including student, one constant in my journey is the pursuit of a balanced and fulfilling life.
+                  Greetings! 🌟 I'm {profileData.name}, a passionate individual navigating life's adventures. While I wear many hats, including student, one constant in my journey is the pursuit of a balanced and fulfilling life.
 
                   Outside of work, you'll often find me listening folk songs. Whether it's immersing myself in a good book, exploring local trails, or experimenting with new recipes in the kitchen, I believe in embracing life's diverse experiences.
 

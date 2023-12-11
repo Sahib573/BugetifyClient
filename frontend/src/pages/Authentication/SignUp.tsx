@@ -15,7 +15,7 @@ const SignUp = () => {
 
   const handleClick = async (e: any) => {
     e.preventDefault();
-    const res = await axios.post("https://backendbugetify.onrender.com/user/create", {
+    const res = await axios.post("https://budgetserver-7ip1.onrender.com/user/create", {
       name,
       email,
       address,

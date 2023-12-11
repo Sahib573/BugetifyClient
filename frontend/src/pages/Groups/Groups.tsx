@@ -23,7 +23,7 @@ const Groups: React.FC = () => {
       if (getUser) {
         const usr = JSON.parse(getUser);
         const _id = usr._id;
-        const res = await axios.post("https://backendbugetify.onrender.com/group/getGroups", {
+        const res = await axios.post("https://budgetserver-7ip1.onrender.com/group/getGroups", {
           _id,
         });
         if (res && res.data && res.data.arr) {

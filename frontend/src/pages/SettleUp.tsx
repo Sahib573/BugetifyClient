@@ -15,15 +15,15 @@ const SettleUpSection: React.FC = () => {
           <ul>
             {/* Sample list of amounts you owe */}
             <li className="flex justify-between items-center mb-2 dark:text-white text-black ">
-              <span>Friend 1</span>
+              <span>Kush</span>
               <span className="text-red-500 font-semibold dark:text-white">
-                -$50.00
+                -Rs50.00
               </span>
             </li>
             <li className="flex justify-between items-center mb-2 text-black dark:text-white">
-              <span>Friend 2</span>
+              <span>Parul</span>
               <span className="text-red-500 font-semibold dark:text-white">
-                -$30.00
+                -Rs30.00
               </span>
             </li>
             {/* Add more list items as needed */}
@@ -37,15 +37,15 @@ const SettleUpSection: React.FC = () => {
           <ul>
             {/* Sample list of amounts you are owed */}
             <li className="flex justify-between items-center mb-2 text-black dark:text-white">
-              <span>Friend 3</span>
+              <span>Somesh</span>
               <span className="text-green-500 font-semibold dark:text-white">
-                $20.00
+                Rs20.00
               </span>
             </li>
             <li className="flex justify-between items-center mb-2 text-black dark:text-white">
-              <span>Friend 4</span>
+              <span>Deepak Kumar</span>
               <span className="text-green-500 font-semibold dark:text-white">
-                $40.00
+                Rs40.00
               </span>
             </li>
             {/* Add more list items as needed */}

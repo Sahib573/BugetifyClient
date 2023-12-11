@@ -28,7 +28,7 @@ const AddGroupForm = () => {
   const handleAddGroup = async (e: any) => {
     e.preventDefault();
 
-    const res = await axios.post("https://backendbugetify.onrender.com/group/create", {
+    const res = await axios.post("https://budgetserver-7ip1.onrender.com/group/create", {
       name: groupName,
       description: groupDescription,
       category: selectedCategory,

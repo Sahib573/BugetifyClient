@@ -47,7 +47,7 @@ const Friends = () => {
       if (getUser) {
         const usr = JSON.parse(getUser);
         const _id = usr._id;
-        let res = await axios.post("https://backendbugetify.onrender.com/user/getFriends", {
+        let res = await axios.post("https://budgetserver-7ip1.onrender.com/user/getFriends", {
           _id,
         });
         res = res.data;
@@ -95,7 +95,7 @@ const Friends = () => {
     if (getUser) {
       const usr = JSON.parse(getUser);
       const _id = usr._id;
-      const res = await axios.post("https://backendbugetify.onrender.com/user/addfriend", {
+      const res = await axios.post("https://budgetserver-7ip1.onrender.com/user/addfriend", {
         _id,
         friend_email: email,
       });
